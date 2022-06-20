@@ -6,11 +6,14 @@ import androidx.fragment.app.FragmentActivity;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -78,6 +81,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 }
                 MarkerOptions options = new MarkerOptions().position(latLng).title("Place Location");
                 markersList.add(google_map.addMarker(options));
+
+                if(markersList.size() > 0) {
+                    binding.btnConfirmLocation.setVisibility(View.VISIBLE);
+                    binding.btnConfirmLocation.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            Log.d("Location-->", String.valueOf(latLng));
+                            finish();
+                        }
+                    });
+                }
             }
         });
 
