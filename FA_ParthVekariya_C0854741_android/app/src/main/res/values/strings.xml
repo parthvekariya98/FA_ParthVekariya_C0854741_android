@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FA_ParthVekariya_C0854741_android</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="txt_add_place">Add Place</string>
+    <string name="txt_update">Update</string>
+    <string name="txt_delete">Delete</string>
+    <string name="txt_place_name">Place Name</string>
+    <string name="txt_place_description">Place Description</string>
+    <string name="txt_select_image">Select Image</string>
+    <string name="txt_mark_visited">Mark As Visited</string>
+    <string name="txt_view_details">Details</string>
+    <string name="txt_place_address">Place Address</string>
+    <string name="txt_view_map">View on map</string>
+    <string name="title_activity_maps">Map View</string>
+    <string name="txt_select_location">Select Location</string>
+</resources>

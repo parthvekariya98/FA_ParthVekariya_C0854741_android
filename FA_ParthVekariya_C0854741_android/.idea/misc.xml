@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.16822916666666668" />
+        <entry key="app/src/main/res/drawable/edit_text_background.xml" value="0.133" />
+        <entry key="app/src/main/res/drawable/location_marker.xml" value="0.133" />
+        <entry key="app/src/main/res/layout/activity_add_place.xml" value="0.16302083333333334" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.14010416666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.12273550724637682" />
+        <entry key="app/src/main/res/layout/activity_place_detail.xml" value="0.14583333333333334" />
+        <entry key="app/src/main/res/layout/activity_place_list.xml" value="0.1921875" />
+        <entry key="app/src/main/res/layout/activity_update_place.xml" value="0.16302083333333334" />
+        <entry key="app/src/main/res/layout/place_list.xml" value="0.1921875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK" />
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1921875" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
